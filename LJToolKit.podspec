@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "LJToolKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "LJ工具."
 
 
