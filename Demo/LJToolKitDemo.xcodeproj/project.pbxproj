@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABA9AF3A1F67761F00BD1013 /* NSDate+LJBaseExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA9AF391F67761F00BD1013 /* NSDate+LJBaseExtension.m */; };
+		AB201DD31F6A7DA20088914B /* NSDate+LJBaseExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB201DCA1F6A7DA20088914B /* NSDate+LJBaseExtension.m */; };
+		AB201DD41F6A7DA20088914B /* NSSet+LJNSSetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AB201DCD1F6A7DA20088914B /* NSSet+LJNSSetMethod.m */; };
+		AB201DD51F6A7DA20088914B /* NSObject+LJAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AB201DD01F6A7DA20088914B /* NSObject+LJAddProperty.m */; };
+		AB201DD61F6A7DA20088914B /* NSObject+LJRuntimeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AB201DD21F6A7DA20088914B /* NSObject+LJRuntimeMethod.m */; };
 		ABEDDDE41F66805600E8C424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEDDDE31F66805600E8C424 /* main.m */; };
 		ABEDDDE71F66805600E8C424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEDDDE61F66805600E8C424 /* AppDelegate.m */; };
 		ABEDDDEA1F66805600E8C424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEDDDE91F66805600E8C424 /* ViewController.m */; };
@@ -36,8 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ABA9AF381F67761F00BD1013 /* NSDate+LJBaseExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LJBaseExtension.h"; sourceTree = "<group>"; };
-		ABA9AF391F67761F00BD1013 /* NSDate+LJBaseExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LJBaseExtension.m"; sourceTree = "<group>"; };
+		AB201DC91F6A7DA20088914B /* NSDate+LJBaseExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LJBaseExtension.h"; sourceTree = "<group>"; };
+		AB201DCA1F6A7DA20088914B /* NSDate+LJBaseExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LJBaseExtension.m"; sourceTree = "<group>"; };
+		AB201DCC1F6A7DA20088914B /* NSSet+LJNSSetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+LJNSSetMethod.h"; sourceTree = "<group>"; };
+		AB201DCD1F6A7DA20088914B /* NSSet+LJNSSetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+LJNSSetMethod.m"; sourceTree = "<group>"; };
+		AB201DCF1F6A7DA20088914B /* NSObject+LJAddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJAddProperty.h"; sourceTree = "<group>"; };
+		AB201DD01F6A7DA20088914B /* NSObject+LJAddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJAddProperty.m"; sourceTree = "<group>"; };
+		AB201DD11F6A7DA20088914B /* NSObject+LJRuntimeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJRuntimeMethod.h"; sourceTree = "<group>"; };
+		AB201DD21F6A7DA20088914B /* NSObject+LJRuntimeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJRuntimeMethod.m"; sourceTree = "<group>"; };
 		ABEDDDDF1F66805600E8C424 /* LJToolKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJToolKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEDDDE31F66805600E8C424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABEDDDE51F66805600E8C424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,21 +90,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ABA9AF361F67761F00BD1013 /* LJToolKit */ = {
+		AB201DC71F6A7DA20088914B /* LJToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				ABA9AF371F67761F00BD1013 /* LJDateTool */,
+				AB201DC81F6A7DA20088914B /* LJNSDateTool */,
+				AB201DCB1F6A7DA20088914B /* LJNSSetTool */,
+				AB201DCE1F6A7DA20088914B /* LJRuntimeTool */,
 			);
-			path = LJToolKit;
+			name = LJToolKit;
+			path = ../../LJToolKit;
 			sourceTree = "<group>";
 		};
-		ABA9AF371F67761F00BD1013 /* LJDateTool */ = {
+		AB201DC81F6A7DA20088914B /* LJNSDateTool */ = {
 			isa = PBXGroup;
 			children = (
-				ABA9AF381F67761F00BD1013 /* NSDate+LJBaseExtension.h */,
-				ABA9AF391F67761F00BD1013 /* NSDate+LJBaseExtension.m */,
+				AB201DC91F6A7DA20088914B /* NSDate+LJBaseExtension.h */,
+				AB201DCA1F6A7DA20088914B /* NSDate+LJBaseExtension.m */,
 			);
-			path = LJDateTool;
+			path = LJNSDateTool;
+			sourceTree = "<group>";
+		};
+		AB201DCB1F6A7DA20088914B /* LJNSSetTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB201DCC1F6A7DA20088914B /* NSSet+LJNSSetMethod.h */,
+				AB201DCD1F6A7DA20088914B /* NSSet+LJNSSetMethod.m */,
+			);
+			path = LJNSSetTool;
+			sourceTree = "<group>";
+		};
+		AB201DCE1F6A7DA20088914B /* LJRuntimeTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB201DCF1F6A7DA20088914B /* NSObject+LJAddProperty.h */,
+				AB201DD01F6A7DA20088914B /* NSObject+LJAddProperty.m */,
+				AB201DD11F6A7DA20088914B /* NSObject+LJRuntimeMethod.h */,
+				AB201DD21F6A7DA20088914B /* NSObject+LJRuntimeMethod.m */,
+			);
+			path = LJRuntimeTool;
 			sourceTree = "<group>";
 		};
 		ABEDDDD61F66805600E8C424 = {
@@ -121,7 +153,7 @@
 		ABEDDDE11F66805600E8C424 /* LJToolKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				ABA9AF361F67761F00BD1013 /* LJToolKit */,
+				AB201DC71F6A7DA20088914B /* LJToolKit */,
 				ABEDDDE51F66805600E8C424 /* AppDelegate.h */,
 				ABEDDDE61F66805600E8C424 /* AppDelegate.m */,
 				ABEDDDE81F66805600E8C424 /* ViewController.h */,
@@ -294,10 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB201DD51F6A7DA20088914B /* NSObject+LJAddProperty.m in Sources */,
+				AB201DD61F6A7DA20088914B /* NSObject+LJRuntimeMethod.m in Sources */,
 				ABEDDDEA1F66805600E8C424 /* ViewController.m in Sources */,
+				AB201DD41F6A7DA20088914B /* NSSet+LJNSSetMethod.m in Sources */,
 				ABEDDDE71F66805600E8C424 /* AppDelegate.m in Sources */,
 				ABEDDDE41F66805600E8C424 /* main.m in Sources */,
-				ABA9AF3A1F67761F00BD1013 /* NSDate+LJBaseExtension.m in Sources */,
+				AB201DD31F6A7DA20088914B /* NSDate+LJBaseExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
