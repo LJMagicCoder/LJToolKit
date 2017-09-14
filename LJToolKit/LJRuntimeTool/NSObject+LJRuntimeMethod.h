@@ -10,6 +10,7 @@
 
 @interface NSObject (LJRuntimeMethod)
 
+//交换方法
 + (BOOL)lj_methodSwizzle:(SEL)firstSEL Method:(SEL)secondSEL;
 
 - (BOOL)lj_superRespondsToSelector:(SEL)selector;
