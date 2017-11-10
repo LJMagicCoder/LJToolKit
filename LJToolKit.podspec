@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "LJToolKit"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "LJ工具."
 
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.license      = "Apache License, Version 2.0"
 
 
-  s.author             = { "LJMagicCoder" => "582494319@qq.com" }
+  s.author       = { "LJMagicCoder" => "582494319@qq.com" }
 
 
   s.platform     = :ios, "7.0"

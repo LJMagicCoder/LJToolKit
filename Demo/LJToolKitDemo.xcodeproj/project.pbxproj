@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB201DD31F6A7DA20088914B /* NSDate+LJBaseExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB201DCA1F6A7DA20088914B /* NSDate+LJBaseExtension.m */; };
-		AB201DD41F6A7DA20088914B /* NSSet+LJNSSetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AB201DCD1F6A7DA20088914B /* NSSet+LJNSSetMethod.m */; };
-		AB201DD51F6A7DA20088914B /* NSObject+LJAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AB201DD01F6A7DA20088914B /* NSObject+LJAddProperty.m */; };
-		AB201DD61F6A7DA20088914B /* NSObject+LJRuntimeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AB201DD21F6A7DA20088914B /* NSObject+LJRuntimeMethod.m */; };
+		14D98B2A79F3779834347643 /* libPods-LJToolKitDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A8F561D79916483C7FE244 /* libPods-LJToolKitDemoUITests.a */; };
+		4121F9DC224892EAE30BAFC6 /* libPods-LJToolKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6D3027B41771EB72D0964D /* libPods-LJToolKitDemo.a */; };
+		6235D15861BDCE8E57D92E53 /* libPods-LJToolKitDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFC84745935EE47F5FDCC94 /* libPods-LJToolKitDemoTests.a */; };
+		AB8FBFEE1FA8578B00D8069C /* NSDate+LJBaseExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FBFD51FA8578B00D8069C /* NSDate+LJBaseExtension.m */; };
+		AB8FBFEF1FA8578B00D8069C /* NSSet+LJNSSetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FBFD81FA8578B00D8069C /* NSSet+LJNSSetMethod.m */; };
+		AB8FBFF01FA8578B00D8069C /* NSObject+LJAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FBFDC1FA8578B00D8069C /* NSObject+LJAddProperty.m */; };
+		AB8FBFF11FA8578B00D8069C /* NSObject+LJRuntimeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FBFDE1FA8578B00D8069C /* NSObject+LJRuntimeMethod.m */; };
+		AB8FBFF21FA8578B00D8069C /* NSObject+PhotosCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FBFE21FA8578B00D8069C /* NSObject+PhotosCategory.m */; };
+		AB8FBFF31FA8578B00D8069C /* UIView+LJMBProgressHUDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FBFE61FA8578B00D8069C /* UIView+LJMBProgressHUDTool.m */; };
+		AB8FBFF41FA8578B00D8069C /* UIView+LJGestureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FBFEA1FA8578B00D8069C /* UIView+LJGestureTool.m */; };
+		AB8FBFF51FA8578B00D8069C /* UITextView+LJTextViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FBFED1FA8578B00D8069C /* UITextView+LJTextViewTool.m */; };
 		ABEDDDE41F66805600E8C424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEDDDE31F66805600E8C424 /* main.m */; };
 		ABEDDDE71F66805600E8C424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEDDDE61F66805600E8C424 /* AppDelegate.m */; };
 		ABEDDDEA1F66805600E8C424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEDDDE91F66805600E8C424 /* ViewController.m */; };
@@ -39,14 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB201DC91F6A7DA20088914B /* NSDate+LJBaseExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LJBaseExtension.h"; sourceTree = "<group>"; };
-		AB201DCA1F6A7DA20088914B /* NSDate+LJBaseExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LJBaseExtension.m"; sourceTree = "<group>"; };
-		AB201DCC1F6A7DA20088914B /* NSSet+LJNSSetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+LJNSSetMethod.h"; sourceTree = "<group>"; };
-		AB201DCD1F6A7DA20088914B /* NSSet+LJNSSetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+LJNSSetMethod.m"; sourceTree = "<group>"; };
-		AB201DCF1F6A7DA20088914B /* NSObject+LJAddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJAddProperty.h"; sourceTree = "<group>"; };
-		AB201DD01F6A7DA20088914B /* NSObject+LJAddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJAddProperty.m"; sourceTree = "<group>"; };
-		AB201DD11F6A7DA20088914B /* NSObject+LJRuntimeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJRuntimeMethod.h"; sourceTree = "<group>"; };
-		AB201DD21F6A7DA20088914B /* NSObject+LJRuntimeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJRuntimeMethod.m"; sourceTree = "<group>"; };
+		3EA30A219AC64B2C1196B3FB /* Pods-LJToolKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJToolKitDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJToolKitDemoUITests/Pods-LJToolKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B069434FD1635ECE6B843FC /* Pods-LJToolKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJToolKitDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJToolKitDemoTests/Pods-LJToolKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EFC84745935EE47F5FDCC94 /* libPods-LJToolKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJToolKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8FBFD41FA8578B00D8069C /* NSDate+LJBaseExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LJBaseExtension.h"; sourceTree = "<group>"; };
+		AB8FBFD51FA8578B00D8069C /* NSDate+LJBaseExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LJBaseExtension.m"; sourceTree = "<group>"; };
+		AB8FBFD71FA8578B00D8069C /* NSSet+LJNSSetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+LJNSSetMethod.h"; sourceTree = "<group>"; };
+		AB8FBFD81FA8578B00D8069C /* NSSet+LJNSSetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+LJNSSetMethod.m"; sourceTree = "<group>"; };
+		AB8FBFDB1FA8578B00D8069C /* NSObject+LJAddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJAddProperty.h"; sourceTree = "<group>"; };
+		AB8FBFDC1FA8578B00D8069C /* NSObject+LJAddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJAddProperty.m"; sourceTree = "<group>"; };
+		AB8FBFDD1FA8578B00D8069C /* NSObject+LJRuntimeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJRuntimeMethod.h"; sourceTree = "<group>"; };
+		AB8FBFDE1FA8578B00D8069C /* NSObject+LJRuntimeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJRuntimeMethod.m"; sourceTree = "<group>"; };
+		AB8FBFE11FA8578B00D8069C /* NSObject+PhotosCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PhotosCategory.h"; sourceTree = "<group>"; };
+		AB8FBFE21FA8578B00D8069C /* NSObject+PhotosCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PhotosCategory.m"; sourceTree = "<group>"; };
+		AB8FBFE51FA8578B00D8069C /* UIView+LJMBProgressHUDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJMBProgressHUDTool.h"; sourceTree = "<group>"; };
+		AB8FBFE61FA8578B00D8069C /* UIView+LJMBProgressHUDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJMBProgressHUDTool.m"; sourceTree = "<group>"; };
+		AB8FBFE91FA8578B00D8069C /* UIView+LJGestureTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJGestureTool.h"; sourceTree = "<group>"; };
+		AB8FBFEA1FA8578B00D8069C /* UIView+LJGestureTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJGestureTool.m"; sourceTree = "<group>"; };
+		AB8FBFEC1FA8578B00D8069C /* UITextView+LJTextViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LJTextViewTool.h"; sourceTree = "<group>"; };
+		AB8FBFED1FA8578B00D8069C /* UITextView+LJTextViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LJTextViewTool.m"; sourceTree = "<group>"; };
 		ABEDDDDF1F66805600E8C424 /* LJToolKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJToolKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEDDDE31F66805600E8C424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABEDDDE51F66805600E8C424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +81,12 @@
 		ABEDDE031F66805600E8C424 /* LJToolKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJToolKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEDDE071F66805600E8C424 /* LJToolKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJToolKitDemoUITests.m; sourceTree = "<group>"; };
 		ABEDDE091F66805600E8C424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEE75620F56DD8D7239719D /* Pods-LJToolKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJToolKitDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJToolKitDemoUITests/Pods-LJToolKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4968F63B2396B82DCE9CDED /* Pods-LJToolKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJToolKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJToolKitDemo/Pods-LJToolKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DD6D3027B41771EB72D0964D /* libPods-LJToolKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJToolKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A8F561D79916483C7FE244 /* libPods-LJToolKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJToolKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE49B1F317356681D05C86E2 /* Pods-LJToolKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJToolKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJToolKitDemo/Pods-LJToolKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F148EDB7EF67A30C0CE833A8 /* Pods-LJToolKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJToolKitDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJToolKitDemoTests/Pods-LJToolKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4121F9DC224892EAE30BAFC6 /* libPods-LJToolKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6235D15861BDCE8E57D92E53 /* libPods-LJToolKitDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,50 +110,153 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D98B2A79F3779834347643 /* libPods-LJToolKitDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB201DC71F6A7DA20088914B /* LJToolKit */ = {
+		27BF1E0DC24023BE7DA74675 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB201DC81F6A7DA20088914B /* LJNSDateTool */,
-				AB201DCB1F6A7DA20088914B /* LJNSSetTool */,
-				AB201DCE1F6A7DA20088914B /* LJRuntimeTool */,
+				EE49B1F317356681D05C86E2 /* Pods-LJToolKitDemo.debug.xcconfig */,
+				B4968F63B2396B82DCE9CDED /* Pods-LJToolKitDemo.release.xcconfig */,
+				4B069434FD1635ECE6B843FC /* Pods-LJToolKitDemoTests.debug.xcconfig */,
+				F148EDB7EF67A30C0CE833A8 /* Pods-LJToolKitDemoTests.release.xcconfig */,
+				3EA30A219AC64B2C1196B3FB /* Pods-LJToolKitDemoUITests.debug.xcconfig */,
+				ADEE75620F56DD8D7239719D /* Pods-LJToolKitDemoUITests.release.xcconfig */,
 			);
-			name = LJToolKit;
-			path = ../../LJToolKit;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		AB201DC81F6A7DA20088914B /* LJNSDateTool */ = {
+		823965FD543BBE4E90613B33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB201DC91F6A7DA20088914B /* NSDate+LJBaseExtension.h */,
-				AB201DCA1F6A7DA20088914B /* NSDate+LJBaseExtension.m */,
+				DD6D3027B41771EB72D0964D /* libPods-LJToolKitDemo.a */,
+				4EFC84745935EE47F5FDCC94 /* libPods-LJToolKitDemoTests.a */,
+				E1A8F561D79916483C7FE244 /* libPods-LJToolKitDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB8FBFD11FA8578B00D8069C /* LJToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFD21FA8578B00D8069C /* LJFoundationTool */,
+				AB8FBFD91FA8578B00D8069C /* LJObjcTool */,
+				AB8FBFDF1FA8578B00D8069C /* LJPhotosTool */,
+				AB8FBFE31FA8578B00D8069C /* LJThirdPartyTool */,
+				AB8FBFE71FA8578B00D8069C /* LJUIKitTool */,
+			);
+			path = LJToolKit;
+			sourceTree = "<group>";
+		};
+		AB8FBFD21FA8578B00D8069C /* LJFoundationTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFD31FA8578B00D8069C /* LJNSDateTool */,
+				AB8FBFD61FA8578B00D8069C /* LJNSSetTool */,
+			);
+			path = LJFoundationTool;
+			sourceTree = "<group>";
+		};
+		AB8FBFD31FA8578B00D8069C /* LJNSDateTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFD41FA8578B00D8069C /* NSDate+LJBaseExtension.h */,
+				AB8FBFD51FA8578B00D8069C /* NSDate+LJBaseExtension.m */,
 			);
 			path = LJNSDateTool;
 			sourceTree = "<group>";
 		};
-		AB201DCB1F6A7DA20088914B /* LJNSSetTool */ = {
+		AB8FBFD61FA8578B00D8069C /* LJNSSetTool */ = {
 			isa = PBXGroup;
 			children = (
-				AB201DCC1F6A7DA20088914B /* NSSet+LJNSSetMethod.h */,
-				AB201DCD1F6A7DA20088914B /* NSSet+LJNSSetMethod.m */,
+				AB8FBFD71FA8578B00D8069C /* NSSet+LJNSSetMethod.h */,
+				AB8FBFD81FA8578B00D8069C /* NSSet+LJNSSetMethod.m */,
 			);
 			path = LJNSSetTool;
 			sourceTree = "<group>";
 		};
-		AB201DCE1F6A7DA20088914B /* LJRuntimeTool */ = {
+		AB8FBFD91FA8578B00D8069C /* LJObjcTool */ = {
 			isa = PBXGroup;
 			children = (
-				AB201DCF1F6A7DA20088914B /* NSObject+LJAddProperty.h */,
-				AB201DD01F6A7DA20088914B /* NSObject+LJAddProperty.m */,
-				AB201DD11F6A7DA20088914B /* NSObject+LJRuntimeMethod.h */,
-				AB201DD21F6A7DA20088914B /* NSObject+LJRuntimeMethod.m */,
+				AB8FBFDA1FA8578B00D8069C /* LJRuntimeTool */,
+			);
+			path = LJObjcTool;
+			sourceTree = "<group>";
+		};
+		AB8FBFDA1FA8578B00D8069C /* LJRuntimeTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFDB1FA8578B00D8069C /* NSObject+LJAddProperty.h */,
+				AB8FBFDC1FA8578B00D8069C /* NSObject+LJAddProperty.m */,
+				AB8FBFDD1FA8578B00D8069C /* NSObject+LJRuntimeMethod.h */,
+				AB8FBFDE1FA8578B00D8069C /* NSObject+LJRuntimeMethod.m */,
 			);
 			path = LJRuntimeTool;
+			sourceTree = "<group>";
+		};
+		AB8FBFDF1FA8578B00D8069C /* LJPhotosTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFE01FA8578B00D8069C /* LJPhotos */,
+			);
+			path = LJPhotosTool;
+			sourceTree = "<group>";
+		};
+		AB8FBFE01FA8578B00D8069C /* LJPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFE11FA8578B00D8069C /* NSObject+PhotosCategory.h */,
+				AB8FBFE21FA8578B00D8069C /* NSObject+PhotosCategory.m */,
+			);
+			path = LJPhotos;
+			sourceTree = "<group>";
+		};
+		AB8FBFE31FA8578B00D8069C /* LJThirdPartyTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFE41FA8578B00D8069C /* LJMBProgressHUDTool */,
+			);
+			path = LJThirdPartyTool;
+			sourceTree = "<group>";
+		};
+		AB8FBFE41FA8578B00D8069C /* LJMBProgressHUDTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFE51FA8578B00D8069C /* UIView+LJMBProgressHUDTool.h */,
+				AB8FBFE61FA8578B00D8069C /* UIView+LJMBProgressHUDTool.m */,
+			);
+			path = LJMBProgressHUDTool;
+			sourceTree = "<group>";
+		};
+		AB8FBFE71FA8578B00D8069C /* LJUIKitTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFE81FA8578B00D8069C /* LJGestureTool */,
+				AB8FBFEB1FA8578B00D8069C /* LJTextViewTool */,
+			);
+			path = LJUIKitTool;
+			sourceTree = "<group>";
+		};
+		AB8FBFE81FA8578B00D8069C /* LJGestureTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFE91FA8578B00D8069C /* UIView+LJGestureTool.h */,
+				AB8FBFEA1FA8578B00D8069C /* UIView+LJGestureTool.m */,
+			);
+			path = LJGestureTool;
+			sourceTree = "<group>";
+		};
+		AB8FBFEB1FA8578B00D8069C /* LJTextViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FBFEC1FA8578B00D8069C /* UITextView+LJTextViewTool.h */,
+				AB8FBFED1FA8578B00D8069C /* UITextView+LJTextViewTool.m */,
+			);
+			path = LJTextViewTool;
 			sourceTree = "<group>";
 		};
 		ABEDDDD61F66805600E8C424 = {
@@ -137,6 +266,8 @@
 				ABEDDDFB1F66805600E8C424 /* LJToolKitDemoTests */,
 				ABEDDE061F66805600E8C424 /* LJToolKitDemoUITests */,
 				ABEDDDE01F66805600E8C424 /* Products */,
+				27BF1E0DC24023BE7DA74675 /* Pods */,
+				823965FD543BBE4E90613B33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,7 +284,7 @@
 		ABEDDDE11F66805600E8C424 /* LJToolKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AB201DC71F6A7DA20088914B /* LJToolKit */,
+				AB8FBFD11FA8578B00D8069C /* LJToolKit */,
 				ABEDDDE51F66805600E8C424 /* AppDelegate.h */,
 				ABEDDDE61F66805600E8C424 /* AppDelegate.m */,
 				ABEDDDE81F66805600E8C424 /* ViewController.h */,
@@ -200,9 +331,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABEDDE0C1F66805600E8C424 /* Build configuration list for PBXNativeTarget "LJToolKitDemo" */;
 			buildPhases = (
+				686CEC1963FE9521DE50C91E /* [CP] Check Pods Manifest.lock */,
 				ABEDDDDB1F66805600E8C424 /* Sources */,
 				ABEDDDDC1F66805600E8C424 /* Frameworks */,
 				ABEDDDDD1F66805600E8C424 /* Resources */,
+				9349F636DE05CC13F05D22D1 /* [CP] Embed Pods Frameworks */,
+				38B72019EC35E393DAE531BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABEDDE0F1F66805600E8C424 /* Build configuration list for PBXNativeTarget "LJToolKitDemoTests" */;
 			buildPhases = (
+				ABEB1E9084DF543F81981043 /* [CP] Check Pods Manifest.lock */,
 				ABEDDDF41F66805600E8C424 /* Sources */,
 				ABEDDDF51F66805600E8C424 /* Frameworks */,
 				ABEDDDF61F66805600E8C424 /* Resources */,
+				853F34C435BFD57861AF57B1 /* [CP] Embed Pods Frameworks */,
+				0B512A27072A5792B6C7E678 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABEDDE121F66805600E8C424 /* Build configuration list for PBXNativeTarget "LJToolKitDemoUITests" */;
 			buildPhases = (
+				9CE66521F326ECC1235DB6E4 /* [CP] Check Pods Manifest.lock */,
 				ABEDDDFF1F66805600E8C424 /* Sources */,
 				ABEDDE001F66805600E8C424 /* Frameworks */,
 				ABEDDE011F66805600E8C424 /* Resources */,
+				B6A565D15EA535EE29F4A718 /* [CP] Embed Pods Frameworks */,
+				8C72179270B333A41D40F633 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,18 +461,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B512A27072A5792B6C7E678 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJToolKitDemoTests/Pods-LJToolKitDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B72019EC35E393DAE531BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJToolKitDemo/Pods-LJToolKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		686CEC1963FE9521DE50C91E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJToolKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853F34C435BFD57861AF57B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJToolKitDemoTests/Pods-LJToolKitDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C72179270B333A41D40F633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJToolKitDemoUITests/Pods-LJToolKitDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9349F636DE05CC13F05D22D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJToolKitDemo/Pods-LJToolKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE66521F326ECC1235DB6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJToolKitDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEB1E9084DF543F81981043 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJToolKitDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A565D15EA535EE29F4A718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJToolKitDemoUITests/Pods-LJToolKitDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABEDDDDB1F66805600E8C424 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB201DD51F6A7DA20088914B /* NSObject+LJAddProperty.m in Sources */,
-				AB201DD61F6A7DA20088914B /* NSObject+LJRuntimeMethod.m in Sources */,
+				AB8FBFF41FA8578B00D8069C /* UIView+LJGestureTool.m in Sources */,
+				AB8FBFF51FA8578B00D8069C /* UITextView+LJTextViewTool.m in Sources */,
+				AB8FBFF01FA8578B00D8069C /* NSObject+LJAddProperty.m in Sources */,
+				AB8FBFF11FA8578B00D8069C /* NSObject+LJRuntimeMethod.m in Sources */,
+				AB8FBFF21FA8578B00D8069C /* NSObject+PhotosCategory.m in Sources */,
 				ABEDDDEA1F66805600E8C424 /* ViewController.m in Sources */,
-				AB201DD41F6A7DA20088914B /* NSSet+LJNSSetMethod.m in Sources */,
+				AB8FBFEF1FA8578B00D8069C /* NSSet+LJNSSetMethod.m in Sources */,
 				ABEDDDE71F66805600E8C424 /* AppDelegate.m in Sources */,
+				AB8FBFF31FA8578B00D8069C /* UIView+LJMBProgressHUDTool.m in Sources */,
 				ABEDDDE41F66805600E8C424 /* main.m in Sources */,
-				AB201DD31F6A7DA20088914B /* NSDate+LJBaseExtension.m in Sources */,
+				AB8FBFEE1FA8578B00D8069C /* NSDate+LJBaseExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +770,7 @@
 		};
 		ABEDDE0D1F66805600E8C424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE49B1F317356681D05C86E2 /* Pods-LJToolKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LJToolKitDemo/Info.plist;
@@ -490,6 +782,7 @@
 		};
 		ABEDDE0E1F66805600E8C424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4968F63B2396B82DCE9CDED /* Pods-LJToolKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LJToolKitDemo/Info.plist;
@@ -501,6 +794,7 @@
 		};
 		ABEDDE101F66805600E8C424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B069434FD1635ECE6B843FC /* Pods-LJToolKitDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LJToolKitDemoTests/Info.plist;
@@ -513,6 +807,7 @@
 		};
 		ABEDDE111F66805600E8C424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F148EDB7EF67A30C0CE833A8 /* Pods-LJToolKitDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LJToolKitDemoTests/Info.plist;
@@ -525,6 +820,7 @@
 		};
 		ABEDDE131F66805600E8C424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA30A219AC64B2C1196B3FB /* Pods-LJToolKitDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LJToolKitDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -536,6 +832,7 @@
 		};
 		ABEDDE141F66805600E8C424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEE75620F56DD8D7239719D /* Pods-LJToolKitDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LJToolKitDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
